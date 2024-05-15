@@ -5,7 +5,8 @@ import time
 
 print("""
 
-
+//////////////////////////////////////////////
+/////////////////////////////////////////////
    _____ _      _      _                      
   / ____| |    (_)    | |                     
  | |    | |     _  ___| | ___ __ ___   ___    
@@ -19,7 +20,8 @@ print("""
          |_.__/ \__, |    |_| \__,_|___/_|_|  
                  __/ |                        
                 |___/                          
-                  
+/////////////////////////////////////////////
+/////////////////////////////////////////////               
 """)
 
 print("Program başlayır...")
@@ -54,6 +56,6 @@ if __name__ == "__main__":
         parser.error('Bu aləti işə sala bilmək üçün url-i qeyd etməlisiniz.')
 
     clickable_elements = elements(options.url)
-    print("Səhifədə tapılan kiləyə biləcəyin elementlər:")
+    print("Səhifədə tapılan klikləyə biləcəyin elementlər:")
     for element in clickable_elements:
         print(element)
